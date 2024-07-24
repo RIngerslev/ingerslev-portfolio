@@ -32,7 +32,7 @@ export default function Home() {
                             <h1>Frontend/Backend <br/> Developer <Image src="/images/coding.svg" className="laptop" alt="laptop icon"/></h1>
                             <p>Hello, I'm Rasmus Ingerslev. Welcome to my portfolio. I'm a dedicated Developer based in Aarhus, Denmark.</p>
                         </div>
-                        <Image src="images/punktbilledeRamme.png" alt="" className="profile" alt="ramme"/>
+                        <Image src="images/punktbilledeRamme.png" className="profile" alt="ramme"/>
                     </div>
                     <div className="skills">
                         <p>Primary Languages</p>
