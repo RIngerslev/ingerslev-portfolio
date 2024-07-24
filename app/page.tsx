@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <div id="root">
-              <div id="nav">
+              <div className="nav">
                   <a href="#home"><h3 className="logo">IngerslevSoftware</h3></a>
                   <div id="buttonMenu" className="btn not-active"><span></span><span></span><span></span></div>
                   <ul className="navigation">
@@ -29,32 +29,32 @@ export default function Home() {
                 <div className="content">
                     <div className="profile-main">
                         <div className="profile-text">
-                            <h1>Frontend/Backend <br/> Developer <Image src="/images/coding.svg" className="laptop" alt="laptop icon"/></h1>
+                            <h1>Frontend/Backend <br/> Developer <Image src="coding.svg" className="laptop" alt="laptop icon" width={25} height={25}/></h1>
                             <p>Hello, I'm Rasmus Ingerslev. Welcome to my portfolio. I'm a dedicated Developer based in Aarhus, Denmark.</p>
                         </div>
-                        <Image src="images/punktbilledeRamme.png" className="profile" alt="ramme"/>
+                        <Image src="/punktbilledeRamme.png" className="profile" alt="ramme" width={200} height={200}/>
                     </div>
                     <div className="skills">
                         <p>Primary Languages</p>
                         <div className="logos">
                             <ul>
                                 <li>
-                                    <Image src="/images/java-original-wordmark.svg" title="Java" alt="java logo"/>
+                                    <Image src="/java-original-wordmark.svg" title="Java" alt="java logo" width={25} height={25}/>
                                 </li>
                                 <li>
-                                    <Image src="/images/csharp.svg" title="C#" alt="c# logo"/>
+                                    <Image src="/csharp.svg" title="C#" alt="c# logo" width={25} height={25}/>
                                 </li>
                                 <li>
-                                    <Image src="/images/swift.svg" title="SwiftUI" alt="swift logo"/>
+                                    <Image src="/swift.svg" title="SwiftUI" alt="swift logo" width={25} height={25}/>
                                 </li>
                                 <li>
-                                    <Image src="/images/javascript-js.svg" title="JavaScript" alt="JavaScript logo"/>
+                                    <Image src="/javascript-js.svg" title="JavaScript" alt="JavaScript logo" width={25} height={25}/>
                                 </li>
                                 <li>
-                                    <Image src="/images/html.svg" title="HTML5" alt="html logo"/>
+                                    <Image src="/html.svg" title="HTML5" alt="html logo" width={25} height={25}/>
                                 </li>
                                 <li>
-                                    <Image src="/images/css-3.svg" title="CSS3" alt="css logo"/>
+                                    <Image src="/css-3.svg" title="CSS3" alt="css logo" width={25} height={25}/>
                                 </li>
                             </ul>
                         </div> 
@@ -75,19 +75,19 @@ export default function Home() {
                     <div className="img-side">
                         <div className="placement">
                             <p>Backend & Mobile</p>
-                            <Image src="/images/java-original-wordmark.svg" title="Java" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/csharp.svg" title="C#" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/nodejs.svg" title="NodeJS" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/swift.svg" title="SwiftUI" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/reactNative.png" title="ReactNative" className="skill-icon" alt="skill-icon"/>
+                            <Image src="/java-original-wordmark.svg" title="Java" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/csharp.svg" title="C#" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/nodejs.svg" title="NodeJS" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/swift.svg" title="SwiftUI" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/reactNative.png" title="ReactNative" className="skill-icon" alt="skill-icon" width={25} height={25}/>
                             <p>Frontend</p>
-                            <Image src="/images/javascript-js.svg" title="Javascript" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/html.svg" title="HTML5" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/css-3.svg" title="CSS3" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/pug.svg" title="Pug" className="skill-icon" alt="skill-icon"/>
+                            <Image src="/javascript-js.svg" title="Javascript" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/html.svg" title="HTML5" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/css-3.svg" title="CSS3" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/pug.svg" title="Pug" className="skill-icon" alt="skill-icon" width={25} height={25}/>
                             <p>Database</p>
-                            <Image src="/images/database-sql.svg" title="MS SQL" className="skill-icon" alt="skill-icon"/>
-                            <Image src="/images/file-type-firebase.svg" title="Firebase" className="skill-icon" alt="skill-icon"/>
+                            <Image src="/database-sql.svg" title="MS SQL" className="skill-icon" alt="skill-icon" width={25} height={25}/>
+                            <Image src="/file-type-firebase.svg" title="Firebase" className="skill-icon" alt="skill-icon" width={25} height={25}/>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                       <div className="pro pro__1 undefined">
                           <div className="pro__img">
                               <a target="_blank" href="https://play.google.com/store/apps/details?id=com.UrDiscFriend" rel="noreferrer">
-                                  <Image src="/images/UrDiscFriend.png" alt="website" className="transform: translateY(0%); transition: transform 10s ease-in-out 0s;"/>
+                                  <Image src="/UrDiscFriend.png" alt="website" className="transform: translateY(0%); transition: transform 25s ease-in-out 0s;" width={400} height={400}/>
                               </a>
                           </div>
                           <div className="pro__text">
@@ -119,7 +119,7 @@ export default function Home() {
                       <div className="pro pro__1">
                         <div className="pro__img">
                             <a target="_blank" href="https://grauballemikrobryggeri.dk/" rel="noreferrer">
-                                <Image src="/images/GBhjem.png" alt="website" className="transform: translateY(0%); transition: transform 10s ease-in-out 0s;"/></a>
+                                <Image src="/GBhjem.png" alt="website" className="transform: translateY(0%); transition: transform 25s ease-in-out 0s;" width={400} height={400}/></a>
                             </div>
                             <div className="pro__text">
                                 <h3>Grauballe Mikrobryggeri</h3>
