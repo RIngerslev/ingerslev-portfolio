@@ -20,6 +20,9 @@ export default function Home() {
                       <li>
                           <a href="#contact">Contact</a>
                       </li>
+                      <li>
+                          <a href="#test">test</a>
+                      </li>
                   </ul>
               </div>
         </div>
